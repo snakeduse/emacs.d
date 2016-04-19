@@ -64,4 +64,6 @@
 (global-set-key (kbd "C-c c a") 'mc/edit-beginnings-of-lines)
 (global-set-key (kbd "C-M-<mouse-1>") 'mc/add-cursor-on-click)
 
+(global-set-key (kbd "C-;") 'comment-or-uncomment-region)
+
 (provide 'init-editing)

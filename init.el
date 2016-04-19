@@ -36,6 +36,7 @@
 (require 'init-editing)
 (require 'init-isearch)
 (require 'init-sessions)
+(require 'init-ido)
 
 (message "Configs loaded")
 (message "Startup time: %g seconds." (float-time (time-since emacs-load-start-time)))
